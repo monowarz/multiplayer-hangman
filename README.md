@@ -1,4 +1,3 @@
-
 # Multiplayer Hangman Game 🎮🐍
 
 ## Overview
@@ -9,15 +8,22 @@ This project is a Multiplayer Hangman game developed in Python. The game allows 
 - **Hint System**: Hints are provided using a dictionary to assist with guesses.
 - **Visual Feedback**: Incorrect guesses are displayed by stages of a hangman figure.
 
-## Changes Made
-Initially proposed as a single-player game, it was updated to include a multiplayer feature to make it more interactive and competitive. Implementing multiplayer functionality required the use of a dictionary for hints, along with debugging logic for alternating turns.
-
 ## Gameplay Instructions
 1. Players take turns guessing one lowercase letter at a time. Multiple letters or capital letters are not accepted.
 2. If a letter appears multiple times in the word, guessing it once will reveal all instances.
 3. Each player has up to 6 incorrect guesses.
 4. If one player runs out of attempts, the other player continues until they either win or also run out of attempts.
 5. **Winning Terms**: The first player to guess the word correctly wins. If both players run out of guesses without solving the word, it’s a draw.
+
+## How to Download and Use
+1. **Download**: Clone this repository by running:
+   ```
+   git clone <repository-url>
+   ```
+2. **Run the Game**: Open a terminal, navigate to the project directory, and run the script with:
+   ```
+   python main.py
+   ```
 
 ## Sample Game
 **Player 1's Turn**  
@@ -44,5 +50,3 @@ Guess a letter: o
 Congratulations! **Player 2 wins!**
 
 --- 
-
-Enjoy playing and competing with friends in this Python-powered twist on the classic game of Hangman!
